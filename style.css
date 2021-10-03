@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+* {
+    padding: 1%;
+    margin: 0%;
+    font-family: sans-serif;
+}
+
+ img {
+     filter: saturate(0%) sepia(20%);
+ }
+
+.suscribers {
+    padding: 5%;
+    background-color:rgb(154, 155, 156);
+    color: antiquewhite;
+    font-size: 1.8em;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+header {
+    position: sticky;
+    top: 0%;
+    background-color: rgba(255, 255, 255, 0.5);
+    z-index: 1;
+}
+h1 {
+    display: none;
+}
+header img{
+    width: 20%;
+    margin: auto;
+    display: block;
+    margin-top: 5%;
+}
+.navList {
+    display: inline;
+    text-transform: capitalize;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 0.5% 2%;
+}
+.navList a {
+text-decoration: none;
+color: rgb(95, 95, 95);
+}
+.navList:hover {
+    background-color: gainsboro;
+}
