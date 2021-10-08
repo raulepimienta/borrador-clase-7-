@@ -127,6 +127,11 @@ form input, form select {
     padding: 12px 20px;
        width: 80%;
 }
+
+form input[type="radio"]{
+    width: 20%;
+}
+
 form label.userType {
     width: 40%;
 }
