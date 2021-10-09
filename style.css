@@ -143,3 +143,16 @@ form button {
     border-radius: 10px;
     box-shadow: 2px 2px 2px 1px rgba(15, 15, 15, 0.9);
 }
+
+img.joke {
+    display: block;
+    filter: saturate(150%);
+    width: 70%;
+    margin: auto;
+}
+p.joke {
+    font-size: 4em;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(87,28,51);
+}
